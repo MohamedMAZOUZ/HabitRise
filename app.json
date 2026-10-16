@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "HabitRise",
+    "slug": "habitrise",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.habitrise.app"
+    },
+    "android": {
+      "package": "com.habitrise.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1B4D3E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "mo-12004",
+    "extra": {
+      "eas": {
+        "projectId": "89a05f2d-b8fa-4a8b-a443-167fbc8ee300"
+      }
+    }
+  }
+}
